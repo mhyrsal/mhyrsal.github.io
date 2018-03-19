@@ -21,6 +21,7 @@
     "firebase": "^4.8.1",
     "fixed-data-table-2": "^0.8.8",
     "frappe-charts": "^0.0.8",
+    "gh-pages": "^1.1.0",
     "globalize": "^1.2.3",
     "history": "^4.6.3",
     "immutable": "^3.8.1",
@@ -144,7 +145,7 @@
     "webpack-manifest-plugin": "^1.3.2",
     "whatwg-fetch": "2.0.3"
   },
-  "homepage": "http://madiv.cz/zku",
+  "homepage": "http://mhyrsal.github.io/",
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
