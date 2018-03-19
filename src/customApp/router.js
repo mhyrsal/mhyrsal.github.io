@@ -24,14 +24,6 @@ export default function(url) {
     <Route
       exact
       key="blank_page"
-      path={`${url}/blank_page`}
-      component={asyncComponent(() => import('./containers/blankPage'))}
-    />
-  );
-  routers.push(
-    <Route
-      exact
-      key="blank_page"
       path={`${url}/profile`}
       component={asyncComponent(() => import('./containers/profile'))}
     />

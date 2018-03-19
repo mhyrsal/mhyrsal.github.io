@@ -30,18 +30,6 @@ export default function(url, submenuColor) {
     </Menu.Item>
   );
   sidebars.push(
-    <Menu.Item key="blank_page">
-      <Link to={`${url}/blank_page`}>
-        <span className="isoMenuHolder" style={submenuColor}>
-          <i className="ion-document" />
-          <span className="nav-text">
-            <IntlMessages id="sidebar.blankPage" />
-          </span>
-        </span>
-      </Link>
-    </Menu.Item>
-  );
-  sidebars.push(
     <Menu.Item key="profile">
       <Link to={`${url}/profile`}>
         <span className="isoMenuHolder" style={submenuColor}>
